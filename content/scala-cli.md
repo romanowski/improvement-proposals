@@ -169,7 +169,7 @@ This section should also argue to what extent backward source compatibility is p
 
 Scala CLI brings [using directives](https://scala-cli.virtuslab.org/docs/guides/using-directives) and  [conventions to mark the test files](https://scala-cli.virtuslab.org/docs/commands/test#test-sources). We are not sure if both can be accepted as a part of this SIP or we should have seperate SIPs for both (we have opened a [pre-SIP for using directives](https://contributors.scala-lang.org/t/pre-sip-using-directives/5700/15))
 
-Scala CLI is an ambitious project, and may seem hard to maintain in long-run. // TODO
+Scala CLI is an ambitious project and may seem hard to maintain in the long-run. // TODO
 
 ----
 
