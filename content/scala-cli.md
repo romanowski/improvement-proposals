@@ -126,7 +126,7 @@ We also suggest to include additional sub-commands by default:
  - `fmt` - to format the code using scalafmt
  - `test` - to run tests included in the code
  - `package` - to package the code into various package formats: JAR, "fat"  be, executable  be or even native application or docker image
- - `shebang` - a command useful for scripting, designed to be included in the `shebang` section of scripts
+ - `shebang` - a command useful for scripting, designed to be included in the "shebang" section of scripts
  - `export` - transform current project to sbt / Mill project using the same settings as provided. Useful to evolve prototypes into bigger projects
 
 Each of these commands expand what the current scripts offer and can be discussed separately. We can even open a dedicated SIP for each of them.
