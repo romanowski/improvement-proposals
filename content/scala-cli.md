@@ -25,7 +25,7 @@ The current default Scala scripts: `scala`, `scalac`, `scaladoc` are quite limit
 
 The current scripts are lacking basic features such as support for resolving dependencies, incremental compilation or support for outputs other than JVM. This forces any user that wants to do anything more than just basic things to learn and use SBT, Mill or an other build tool and that adds to the complexity of learning Scala. 
 
-We observe that current state of tooling is Scala is limiting the creativity, with quite high cost to create e.g. an application or script with some dependencies that targets Node.js. Many Scala developers are not choosing Scala for their personal projects, scripts, or small applications and we believe that the complexity of setting up a build tool is one of the reasons. 
+We observe that the current state of tooling in Scala is limiting creativity, with quite a high cost to create e.g. an application or a script with some dependencies that target Node.js. Many Scala developers are not choosing Scala for their personal projects, scripts, or small applications and we believe that the complexity of setting up a build tool is one of the reasons. 
 
 With this proposal our main goal is to turn Scala into a language with "batteries included" that will also respect the community-first aspect of our ecosystem.
 
