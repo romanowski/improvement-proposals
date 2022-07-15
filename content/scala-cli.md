@@ -91,7 +91,7 @@ Moreover, Scala CLI provides the ability to run GitHub gists (including multi-fi
 
 ** Watch mode **
 
-When working on a piece of code, it is often useful to have it compiled/run everytime the file is changed, and build tools offer a watch mode for that. This is how most people are using watch mode through a build tool. Scala CLI offers watch more for most commands (by using `--watch` / `-w` flags).
+When working on a piece of code, it is often useful to have it compiled/run everytime the file is changed, and build tools offer a watch mode for that. This is how most people are using watch mode through a build tool. Scala CLI offers a watch mode for most of its commands (by using `--watch` / `-w` flags).
 
 // TODO more?
 
