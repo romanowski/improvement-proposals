@@ -46,7 +46,7 @@ The complete set of `scala-cli` features can be found in [its documentation](htt
 
 Scala CLI brings many features like testing, packaging, exporting to sbt / Mill or upcoming support for publishing micro-libraries. Initially, we may want to limit the set of features available in the `scala` command by default. Scala CLI is a relatively new project and we should battle-proof some of its features before we commit to support them as part of the offical `scala` command. 
 
-Scala CLI offers a [multiple native ways to be installed](https://scala-cli.virtuslab.org/install#advanced-installation) so most users should find a suitable method. We would like these packages to become the default `scala` packages in most repositories, often replacing existing `scala` packages.
+Scala CLI offers [multiple native ways to be installed](https://scala-cli.virtuslab.org/install#advanced-installation) so most users should find a suitable method. We would like these packages to become the default `scala` package in most repositories, often replacing existing `scala` packages.
 
 
 
