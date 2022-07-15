@@ -55,7 +55,7 @@ This is the meat of your proposal.
 
 ### High-level overview
 
-Let us show a few examples where adopting Scala CLI as `scala` command would be a significant improvement ofer current scripts. For this, we have assumed a minial set of features. Each additionnal  Scala CLI feature included such as `package` would add more and more use cases.
+Let us show a few examples where adopting Scala CLI as `scala` command would be a significant improvement ofer current scripts. For this, we have assumed a minial set of features. Each additionnal  Scala CLI feature included, such as `package`, would add more and more use cases.
 
 **Using REPL with a 3rd-party dependency**
 
