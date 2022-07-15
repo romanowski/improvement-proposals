@@ -69,7 +69,7 @@ Compared to Ammonite, default Scala REPLs provided by Scala 2 and 3 - that Scala
 
 Additionally, `scala-cli repl` can also put code from given files / directories / snippets on the class path by just providing their locations as arguments. Running ```scala-cli repl foo.scala baz``` will compile code from `foo.scala` and the `baz` directory, and put their classes on the REPL class path (including their dependencies, scalac options etc. defined within those files).
 
-Compilation (and running scaladoc as well) benefit in the similar way from the ability manage dependencies.
+Compilation (and running scaladoc as well) benefit in the similar way from the ability to manage dependencies.
 
 ** Providing reproductions of bugs **
 
