@@ -117,7 +117,7 @@ The sub-commands necessary to include in the `scala` to match the functionalitie
  - `repl`
  - `doc`
 
-On top of that, we think that the following using-facing sub-commands should also be included:
+On top of that, we think that the following user-facing sub-commands should also be included:
  - `clean` - to rebuild project from start without any cached steps
  - `setup-ide` - to control the setup for BSP for IDE integration
  - `doctor` - to analyze if everything is installed properly
