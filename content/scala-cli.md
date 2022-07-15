@@ -23,7 +23,7 @@ We propose to replace current scripts that are installed as "Scala": `scala`, `s
 
 The current default Scala scripts: `scala`, `scalac`, `scaladoc` are quite limited. Beside that, the `scala` command that starts the Scala REPL is hardly used by non-power users. 
 
-The current scripts are lacking basics features such as support for resolving dependencies, incremental compilation or support for outputs other than JVM. This forces any user that wants to do anything more then just basic things to learn and use SBT, Mill or an other build tool and that adds to the complexity of learning Scala. 
+The current scripts are lacking basic features such as support for resolving dependencies, incremental compilation or support for outputs other than JVM. This forces any user that wants to do anything more than just basic things to learn and use SBT, Mill or an other build tool and that adds to the complexity of learning Scala. 
 
 We observe that current state of tooling is Scala is limiting the creativity, with quite high cost to create e.g. an application or script with some dependencies that targets Node.js. Many Scala developers are not choosing Scala for their personal projects, scripts, or small applications and we believe that the complexity of setting up a build tool is one of the reasons. 
 
