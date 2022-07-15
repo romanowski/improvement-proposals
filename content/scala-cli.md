@@ -153,7 +153,7 @@ Adopting Scala CLI as the new `scala` command, as is, will change some of the be
 - Scala CLI recognizes tests based on the extension used (`*.test.scala`) so running `scala compile a.scala a.test.scala` will only compile `a.scala`
 - Scala CLI has its own versioning scheme, that is not related to the Scala compiler. Default version used may dynamically change when new Scala version is released.
 - By default, Scala CLI manages its own dependencies (e.g. scalac, zinc, Bloop) and resolves them lazily. This means that the first run of Scala CLI resolves quite some dependencies. Moreover, Scala CLI periodically checks for updates, new defaults accessing online resources (but it is not required to work, so Scala CLI can work in offline environment once setup)
-- Scala CLI can be also configured via using directives. Command line options have precendece over using directives, however using directives overrides defaults. Compiling a file starting with `//> using scala 2.13.8`, without providing a Scala version on the command line, will result in using `2.13.8` rather then default Scala version. We consider this a feature. However, technically, this is a breaking change.
+- Scala CLI can also be configured via using directives. Command line options have precedence over using directives, however using directives overrides defaults. Compiling a file starting with `//> using scala 2.13.8`, without providing a Scala version on the command line, will result in using `2.13.8` rather than the default Scala version. We consider this a feature. However, technically, this is a breaking change.
 
 // TODO more?
 
