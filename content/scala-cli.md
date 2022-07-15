@@ -129,7 +129,7 @@ We also suggest to include additional sub-commands by default:
  - `shebang` - a command useful for scripting, designed to be included in the `shebang` section of scripts
  - `export` - transform current project to sbt / Mill project using the same settings as provided. Useful to evolve prototypes into bigger projects
 
-Each of those commands expand what current scripts offer and can be discussed separately. We can even open a dedicated SIP for each of them.
+Each of these commands expand what the current scripts offer and can be discussed separately. We can even open a dedicated SIP for each of them.
 
 Beyond that, `scala-cli` offers multiple sub-commands needed to manage itself (e.g. `update`) or its components (e.g. the Bloop server). In most cases,
 these are not user-facing, but these are handy. We can elaborate in more details what are those commands and why we need them if needed.
