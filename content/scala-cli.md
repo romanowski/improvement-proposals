@@ -146,7 +146,7 @@ For example, if the syntax of the language is changed, this section should list 
 
 ### Compatibility
 
-Adopting Scala CLI as the new `scala` command, as is, will change some the behaviour of today's scripts. Some examples:
+Adopting Scala CLI as the new `scala` command, as is, will change some of the behaviour of today's scripts. Some examples:
 
 - `scala repl` needs to be run to start a REPL instead of just `scala`
 - with `scala compile` and `scala doc`, some of the more obscure (or brand new) compile options need to be prefixed with `-O`
