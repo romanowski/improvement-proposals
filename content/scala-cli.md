@@ -132,7 +132,7 @@ We also suggest to include additional sub-commands by default:
 Each of these commands expand what the current scripts offer and can be discussed separately. We can even open a dedicated SIP for each of them.
 
 Beyond that, `scala-cli` offers multiple sub-commands needed to manage itself (e.g. `update`) or its components (e.g. the Bloop server). In most cases,
-these are not user-facing, but these are handy. We can elaborate in more details what are those commands and why we need them if needed.
+these are not user-facing, but still handy. We can elaborate in more detail on what those commands are and why we need them, if necessary.
 
 Scala CLI can be also configured using ["using directives"](https://scala-cli.virtuslab.org/docs/guides/using-directives) - a comment-based configuration syntax that should be placed at the top of Scala files. This allows for self-containing examples within one file since most configuration can be provided either from the command line or via using directives (command line has precedence). This is a game changer for use cases like scripting, reproduction, or within the academic scope.
 
